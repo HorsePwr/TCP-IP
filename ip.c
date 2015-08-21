@@ -16,7 +16,7 @@ main(){
 			token = strtok (returnData, ":");
 			token = strtok (NULL, " ");
 			printf("%s\n", token);
-			//break;
+			break;
 		}
 		i++;
 	}
